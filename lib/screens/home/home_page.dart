@@ -43,9 +43,9 @@ class _HomePageState extends State<HomePage> {
                   //icon: Icons.star
                   //icon: Icons.rocket_launch
                   //icon: Icons.pets
-                  Expanded(child: CategoryButton(name: 'Full Access to Patten Lessons',image: 'assets/image/earth.png' ,color: Colors.lightBlueAccent)),
+                  Expanded(child: CategoryButton(name: 'Full Access to Patten Lessons',image: 'assets/image/earth.png')),
                   SizedBox(width: 30.0),
-                  Expanded(child: CategoryButton(name: 'Unlock all Limitations',image: 'assets/image/book.png',color: Colors.redAccent)),
+                  Expanded(child: CategoryButton(name: 'Unlock all Limitations',image: 'assets/image/book.png')),
                 ],
               ),
             ),
@@ -54,9 +54,9 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.all(15.0),
               child: Row(
                 children: [
-                  Expanded(child: CategoryButton(name: 'All Topic Available',image: 'assets/image/book1.png',color: Colors.deepPurpleAccent)),
+                  Expanded(child: CategoryButton(name: 'All Topic Available',image: 'assets/image/book1.png')),
                   SizedBox(width: 30.0),
-                  Expanded(child: CategoryButton(name: 'Personlized Coaching',image: 'assets/image/human.png',color: Colors.yellow)),
+                  Expanded(child: CategoryButton(name: 'Personlized Coaching',image: 'assets/image/human.png')),
                 ],
               ),
             ),

@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 class CategoryButton extends StatelessWidget {
   final String name;
   final String image;
-  final Color color;
   //final IconData icon;
   const CategoryButton({
     super.key,
     required this.name ,  //required notation ที่เราจะใส่ใน argument ที่บังคับให้ใส่
     required this.image,
-    required this.color,
     //required this.icon,
   });
 
